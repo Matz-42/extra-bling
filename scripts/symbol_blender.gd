@@ -12,7 +12,7 @@ func _init():
 	values = [5,8]
 	value_text = {"color": "symbol_reminder_down_text", "value": {"starting_value": values[0], "var_math": [{"-": "saved_value"}]}}
 	groups = ["limitedmachines"]
-	sfx = ["blender"]
+	sfx = ["blender_STEAM_ID_76561198119199707_"]
 	effects = [
 		{
 			"effect_type": "adjacent_symbols",
@@ -26,7 +26,7 @@ func _init():
 			"diff": true,
 			"anim": "shake",
 			"anim_targets": "adjacent_symbol",
-			"sfx_override": "blender"
+			"sfx_override": "blender_STEAM_ID_76561198119199707_"
 		},
 		{
 			"effect_type": "adjacent_symbols",

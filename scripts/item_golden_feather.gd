@@ -64,7 +64,7 @@ func _init():
 				}
 			],
 			"anim": "shake",
-			"sfx_override": "goosehatch",
+			"sfx_override": "goosehatch_STEAM_ID_76561198119199707_",
 			"value_to_change": "type",
 			"diff": "golden_goose"
 		},

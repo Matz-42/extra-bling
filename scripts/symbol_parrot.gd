@@ -11,7 +11,7 @@ func _init():
 	values = [15]
 	rarity = "uncommon"
 	groups = ["organism","animal","bird"]
-	sfx = ["parrot"]
+	sfx = ["parrot_STEAM_ID_76561198119199707_"]
 	effects = [
 		{
 			"push_front": true,
@@ -40,6 +40,6 @@ func _init():
 			"value_to_change": "wildcarded",
 			"diff": true,
 			"anim": "shake",
-			"sfx_override": "parrot"
+			"sfx_override": "parrot_STEAM_ID_76561198119199707_"
 		}
 	]
