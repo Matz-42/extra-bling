@@ -8,7 +8,7 @@ func _init():
 	value = 2
 	description = "Adjacent <group_antiquescuratorlikes> <last_antiquescuratorlikes> and <icon_highlander> give <color_E14A68><value_1>x<end> more <icon_coin>."
 	localized_descriptions = {}
-	values = [3]
+	values = [2]
 	rarity = "rare"
 	groups = ["organism","human","doglikes","studentgraduation"]
 	sfx = ["shine"]

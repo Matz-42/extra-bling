@@ -2,12 +2,12 @@ extends "res://Mod Data.gd"
 
 func _init():
 	mod_type = "existing_symbol"
-	type = "goose"
-	display_name = "Goose"
+	type = "owl"
+	display_name = "Owl"
 	inherit_effects = true
 	inherit_art = true
 	inherit_groups = true
 	inherit_description = true
 	rarity = "common"
 	value = 1
-	groups = ["goldenfeatherspawners","goldenfeatherbuffed","scarecrowhates"]
+	groups = ["scarecrowhates"]

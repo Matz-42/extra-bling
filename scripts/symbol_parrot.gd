@@ -10,7 +10,7 @@ func _init():
 	localized_descriptions = {}
 	values = [15]
 	rarity = "uncommon"
-	groups = ["organism","animal","bird"]
+	groups = ["organism","animal","bird","scarecrowhates"]
 	sfx = ["parrot_STEAM_ID_76561198119199707_"]
 	effects = [
 		{

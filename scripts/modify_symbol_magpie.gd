@@ -10,6 +10,7 @@ func _init():
 	inherit_description = true
 	rarity = "common"
 	value = -1
+	groups = ["scarecrowhates"]
 	effects = [
 		{
 			"effect_type": "adjacent_symbols",
