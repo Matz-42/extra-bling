@@ -6,7 +6,7 @@ func _init():
 	display_name = "Blender"
 	localized_names = {}
 	value = 1
-	description = "<color_E14A68>Destroys<end> adjacent <group_fruit> and <last_fruit>. Gives <icon_coin> equal to <color_E14A68><value_2>x<end> the value of symbols <color_E14A68>destroyed<end> this way. <color_E14A68>Destroys<end> itself after <color_E14A68>destroying <value_1><end> symbols."
+	description = "<color_E14A68>Destroys<end> adjacent <icon_banana> <group_blendermixed> <last_blendermixed> and <icon_watermelon>. Gives <icon_coin> equal to <color_E14A68><value_2>x<end> the value of symbols <color_E14A68>destroyed<end> this way. <color_E14A68>Destroys<end> itself after <color_E14A68>destroying <value_1><end> symbols."
 	localized_descriptions = {}
 	rarity = "uncommon"
 	values = [5,8]
@@ -19,7 +19,7 @@ func _init():
 			"comparisons": [
 				{
 					"a": "groups",
-					"b": "fruit"
+					"b": "blendermixed"
 				}
 			],
 			"value_to_change": "destroyed",
@@ -34,7 +34,7 @@ func _init():
 			"comparisons": [
 				{
 					"a": "groups",
-					"b": "fruit"
+					"b": "blendermixed"
 				},
 				{
 					"a": "destroyed",
@@ -51,7 +51,7 @@ func _init():
 			"comparisons": [
 				{
 					"a": "groups",
-					"b": "fruit"
+					"b": "blendermixed"
 				},
 				{
 					"a": "destroyed",
@@ -63,6 +63,107 @@ func _init():
 			"value_to_change": "saved_value",
 			"diff": 1
 		},
+		
+		{
+			"effect_type": "adjacent_symbols",
+			"comparisons": [
+				{
+					"a": "type",
+					"b": "banana"
+				}
+			],
+			"value_to_change": "destroyed",
+			"diff": true,
+			"anim": "shake",
+			"anim_targets": "adjacent_symbol",
+			"sfx_override": "blender_STEAM_ID_76561198119199707_"
+		},
+		{	
+			"push_front": true,
+			"effect_type": "adjacent_symbols",
+			"comparisons": [
+				{
+					"a": "type",
+					"b": "banana"
+				},
+				{
+					"a": "destroyed",
+					"b": true
+				}
+			],
+			"target_self": true,
+			"value_to_change": "value_bonus",
+			"diff": {"starting_value": values[1], "var_math": [{"*": "non_prev_final_value"}]}
+		},
+		{
+			"push_front": true,
+			"effect_type": "adjacent_symbols",
+			"comparisons": [
+				{
+					"a": "type",
+					"b": "banana"
+				},
+				{
+					"a": "destroyed",
+					"b": true,
+					"not_prev": true
+				}
+			],
+			"target_self": true,
+			"value_to_change": "saved_value",
+			"diff": 1
+		},
+		
+		{
+			"effect_type": "adjacent_symbols",
+			"comparisons": [
+				{
+					"a": "type",
+					"b": "watermelon"
+				}
+			],
+			"value_to_change": "destroyed",
+			"diff": true,
+			"anim": "shake",
+			"anim_targets": "adjacent_symbol",
+			"sfx_override": "blender_STEAM_ID_76561198119199707_"
+		},
+		{	
+			"push_front": true,
+			"effect_type": "adjacent_symbols",
+			"comparisons": [
+				{
+					"a": "type",
+					"b": "watermelon"
+				},
+				{
+					"a": "destroyed",
+					"b": true
+				}
+			],
+			"target_self": true,
+			"value_to_change": "value_bonus",
+			"diff": {"starting_value": values[1], "var_math": [{"*": "non_prev_final_value"}]}
+		},
+		{
+			"push_front": true,
+			"effect_type": "adjacent_symbols",
+			"comparisons": [
+				{
+					"a": "type",
+					"b": "watermelon"
+				},
+				{
+					"a": "destroyed",
+					"b": true,
+					"not_prev": true
+				}
+			],
+			"target_self": true,
+			"value_to_change": "saved_value",
+			"diff": 1
+		},
+		
 		{
 			"comparisons": [
 				{
