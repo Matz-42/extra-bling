@@ -28,7 +28,8 @@ func _init():
 			"anim_targets": "adjacent_symbol",
 			"sfx_override": "blender_STEAM_ID_76561198119199707_"
 		},
-		{
+		{	
+			"push_front": true,
 			"effect_type": "adjacent_symbols",
 			"comparisons": [
 				{
@@ -54,7 +55,8 @@ func _init():
 				},
 				{
 					"a": "destroyed",
-					"b": true
+					"b": true,
+					"not_prev": true
 				}
 			],
 			"target_self": true,
