@@ -32,18 +32,19 @@ func _init():
 			"comparisons": [
 				{
 					"a": "type",
-					"b": "milk"
+					"b": "milk",
 				},
 				{
 					"a": "destroyed",
-					"b": true
+					"b": true,
+					"not_prev": true
 				}
 			],
 			"target_self": true,
 			"value_to_change": "permanent_bonus",
 			"diff": values[2]
 		},
-		{
+		{	
 			"effect_type": "adjacent_symbols",
 			"comparisons": [
 				{
@@ -52,7 +53,14 @@ func _init():
 				},
 				{
 					"a": "destroyed",
-					"b": true
+					"b": true,
+					"not_prev": true
+				},
+				{
+					"a": "type",
+					"b": "skeleton",
+					"target_self": true,
+					"not_prev": true
 				}
 			],
 			"target_self": true,
@@ -60,6 +68,13 @@ func _init():
 			"diff": -values[0]
 		},
 		{
+			"comparisons": [
+				{
+					"a": "type",
+					"b": "skeleton",
+					"not_prev": true
+				}
+			],
 			"one_time": true,
 			"value_to_change": "saved_value",
 			"diff": 1
@@ -70,6 +85,7 @@ func _init():
 					"a": "saved_value",
 					"b": values[0],
 					"greater_than_eq": true,
+					"not_prev": true
 				}
 			],
 			"value_to_change": "destroyed",
