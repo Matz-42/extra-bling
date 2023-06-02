@@ -37,10 +37,6 @@ func _init():
 				{
 					"a": "destroyed",
 					"b": true
-				},
-				{
-					"a": "tbd",
-					"b": false
 				}
 			],
 			"target_self": true,
@@ -57,10 +53,6 @@ func _init():
 				{
 					"a": "destroyed",
 					"b": true
-				},
-				{
-					"a": "tbd",
-					"b": false
 				}
 			],
 			"target_self": true,
@@ -94,10 +86,6 @@ func _init():
 				{
 					"a": "type",
 					"b": "skeleton"
-				},
-				{
-					"a": "tbd",
-					"b": false
 				}
 			],
 			"tiles_to_add": [{"type": "bone"}, {"type": "bone"}, {"type": "bone"}]

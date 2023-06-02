@@ -38,10 +38,6 @@ func _init():
 				{
 					"a": "removed",
 					"b": true
-				},
-				{
-					"a": "tbd",
-					"b": false
 				}
 			],
 			"target_self": true,
