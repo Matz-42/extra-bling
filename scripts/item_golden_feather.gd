@@ -49,29 +49,6 @@ func _init():
 			"effect_type": "symbols",
 			"comparisons": [
 				{
-					"a": "type",
-					"b": "golden_egg",
-					"not_prev": true
-				},
-				{
-					"a": values[1],
-					"b": {"starting_value": {"rand_num": {"min": 0, "max": 100}}},
-					"greater_than_eq": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false"
-				}
-			],
-			"anim": "shake",
-			"sfx_override": "goosehatch_STEAM_ID_76561198119199707_",
-			"value_to_change": "type",
-			"diff": "golden_goose"
-		},
-		{
-			"effect_type": "symbols",
-			"comparisons": [
-				{
 					"a": "groups",
 					"b": "goldenfeatherbuffed"
 				}
