@@ -20,7 +20,7 @@ func _init():
 			"value_to_change": "saved_values",
 			"value_num": 0,
 			"diff": {"starting_value": {"rand_num": {"min": 0.000001, "max": values[1], "ceil": true}}},
-			"overwrite": true,
+			"overwrite": true
 		},
 		{
 			"comparisons": [
