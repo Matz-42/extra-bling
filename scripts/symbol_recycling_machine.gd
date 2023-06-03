@@ -14,30 +14,32 @@ func _init():
 	groups = ["limitedmachines"]
 	effects = [
 		{
-			"push_front": true,
-			"effect_type": "adjacent_symbols",
+			"effect_type": "adjacent_symbols",	
 			"comparisons": [
 				{
 					"a": "destroyed",
-					"b": true
+					"b": true,
+					"not_prev": true
 				}
 			],
-			"target_self": true,
-			"value_to_change": "saved_value",
-			"diff": 1
-		},
-		{
-			"push_front": true,
-			"effect_type": "adjacent_symbols",
-			"comparisons": [
-				{
-					"a": "destroyed",
-					"b": true
-				}
-			],
+			"anim": "none",
 			"target_self": true,
 			"value_to_change": "reroll_token_value",
 			"diff": values[1]
+		},
+		{
+			"effect_type": "adjacent_symbols",
+			"comparisons": [
+				{
+					"a": "destroyed",
+					"b": true,
+					"not_prev": true
+				}		
+			],
+			"anim": "none",
+			"target_self": true,
+			"value_to_change": "saved_value",
+			"diff": 1
 		},
 		{
 			"comparisons": [
