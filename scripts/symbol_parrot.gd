@@ -32,7 +32,7 @@ func _init():
 			"comparisons": [
 				{
 					"a": "values",
-					"b": {"starting_value": {"rand_num": {"min": 1, "max": 100}}},
+					"b": {"starting_value": {"rand_num": {"min": 0, "max": 100}}},
 					"rand": true,
 					"value_num": 0
 				}

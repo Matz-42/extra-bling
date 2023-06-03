@@ -55,7 +55,7 @@ func _init():
 				},
 				{
 					"a": values[1],
-					"b": {"starting_value": {"rand_num": {"min": 1, "max": 100}}},
+					"b": {"starting_value": {"rand_num": {"min": 0, "max": 100}}},
 					"greater_than_eq": true
 				},
 				{
