@@ -25,13 +25,9 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
-				},
-				{
-					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 1}]},
-					"b": 0
+					"a": {"starting_value": values[0], "var_math": [{"-": "times_coins_given"}]},
+					"b": 1,
+					"less_than_eq": true
 				},
 				{
 					"a": "type",
@@ -42,6 +38,22 @@ func _init():
 					"a": "destroyed",
 					"b": "false",
 					"not_prev": true
+				}
+			],
+			"value_to_change": "saved_values",
+			"value_num": 1,
+			"diff": 1,
+			"overwrite": true
+		},
+		{
+			"comparisons": [
+				{
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
+				},
+				{
+					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 1}]},
+					"b": 0
 				}
 			],
 			"anim": "bounce",
@@ -52,23 +64,12 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 2}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
@@ -79,23 +80,12 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 3}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
@@ -106,23 +96,12 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 4}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
@@ -133,23 +112,12 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 5}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
@@ -160,23 +128,12 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 6}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
@@ -187,23 +144,12 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 7}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
@@ -214,23 +160,12 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 8}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
@@ -241,23 +176,12 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 9}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
@@ -268,23 +192,12 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 10}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
@@ -295,23 +208,12 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 11}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
@@ -322,23 +224,12 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 12}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
@@ -349,23 +240,12 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 13}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
@@ -376,23 +256,12 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 14}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
@@ -403,28 +272,24 @@ func _init():
 		{
 			"comparisons": [
 				{
-					"a": {"starting_value": values[0], "var_math": [{"-": 1}, {"-": "times_coins_given"}]},
-					"b": 0,
-					"lesser_than_eq": true
+					"a": {"starting_value": {"saved_values": {"value_num": 1}}, "var_math": [{"-": 1}]},
+					"b": 0
 				},
 				{
 					"a": {"starting_value": {"saved_values": {"value_num": 0}}, "var_math": [{"-": 15}]},
 					"b": 0
-				},
-				{
-					"a": "type",
-					"b": "student",
-					"not_prev": true
-				},
-				{
-					"a": "destroyed",
-					"b": "false",
-					"not_prev": true
 				}
 			],
 			"anim": "bounce",
 			"sfx_override": "jump",
 			"value_to_change": "type",
 			"diff": "engineer"
-		}
+		},
+		{
+			"last": true,
+			"value_to_change": "saved_values",
+			"value_num": 1,
+			"diff": 0,
+			"overwrite": true
+		},
 	]
