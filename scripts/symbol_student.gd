@@ -17,6 +17,8 @@ func _init():
 		#	The reason why we are not using a group is because modifying some of those symbols in this group would break things; like Comedian with Dark Humor
 		
 		{
+			"push_front": true,
+			"one_time": true,
 			"value_to_change": "saved_values",
 			"value_num": 0,
 			"diff": {"starting_value": {"rand_num": {"min": 0.000001, "max": values[1], "ceil": true}}},
