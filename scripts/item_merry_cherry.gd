@@ -5,7 +5,7 @@ func _init():
 	type = "merry_cherry"
 	display_name = "Merry Cherry"
 	localized_names = {}
-	description = "<icon_cherry> give <color_E14A68><value_1>x<end> more <icon_coin> when in the top row."
+	description = "<icon_cherry> give <color_E14A68><value_1>x<end> more <icon_coin> when in the topmost row."
 	localized_descriptions = {}
 	value = ""
 	values = [5]
