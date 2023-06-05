@@ -9,5 +9,5 @@ func _init():
 	inherit_groups = true
 	inherit_description = true
 	rarity = "uncommon"
-	value = 1
+	value = 2
 	groups = ["blendermixed"]
