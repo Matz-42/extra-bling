@@ -38,10 +38,6 @@ func _init():
 				{
 					"a": "destroyed",
 					"b": true
-				},
-				{
-					"a": "tbd",
-					"b": false
 				}
 			],
 			"target_self": true,
@@ -59,10 +55,6 @@ func _init():
 				{
 					"a": "removed",
 					"b": true
-				},
-				{
-					"a": "tbd",
-					"b": false
 				}
 			],
 			"target_self": true,
@@ -96,10 +88,6 @@ func _init():
 				{
 					"a": "destroyed",
 					"b": true
-				},
-				{
-					"a": "tbd",
-					"b": false
 				}
 			],
 			"target_self": true,
@@ -117,10 +105,6 @@ func _init():
 				{
 					"a": "removed",
 					"b": true
-				},
-				{
-					"a": "tbd",
-					"b": false
 				}
 			],
 			"target_self": true,
@@ -154,10 +138,6 @@ func _init():
 				{
 					"a": "destroyed",
 					"b": true
-				},
-				{
-					"a": "tbd",
-					"b": false
 				}
 			],
 			"target_self": true,
@@ -175,10 +155,6 @@ func _init():
 				{
 					"a": "removed",
 					"b": true
-				},
-				{
-					"a": "tbd",
-					"b": false
 				}
 			],
 			"target_self": true,
