@@ -293,5 +293,5 @@ func _init():
 			"value_num": 1,
 			"diff": 0,
 			"overwrite": true
-		},
+		}
 	]
