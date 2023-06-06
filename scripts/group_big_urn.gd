@@ -10,4 +10,4 @@ func _init():
 	inherit_description = true
 	rarity = "uncommon"
 	value = 2
-	groups = ["antiquescuratorlikes"]
+	groups = ["antiquescuratorlikes","hooligandescription"]
