@@ -10,7 +10,7 @@ func _init():
 	localized_descriptions = {}
 	values = [8,1]
 	rarity = "very_rare"
-	groups = ["organism","animal","triggerchance"]
+	groups = ["organism","animal"]
 	sfx = ["shine"]
 	effects = [
 		{
