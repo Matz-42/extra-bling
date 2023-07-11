@@ -15,16 +15,16 @@ func _init():
 	effects = [
 		{
 			"comparisons": [
-					{
-						"a": "values",
-						"b": {"starting_value": {"rand_num": {"min": 0, "max": 100}}},
-						"rand": true,
-						"value_num": 0
-					}
-				],
-				"anim": "shake",
-				"sfx_override": "growhit",
-				"value_to_change": "type",
-				"diff": "butterfly"
+				{
+					"a": "values",
+					"b": {"starting_value": {"rand_num": {"min": 0, "max": 100}}},
+					"rand": true,
+					"value_num": 0
+				}
+			],
+			"anim": "shake",
+			"sfx_override": "growhit",
+			"value_to_change": "type",
+			"diff": "butterfly"
 		}
 	]
