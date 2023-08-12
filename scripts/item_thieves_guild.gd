@@ -5,7 +5,7 @@ func _init():
 	type = "thieves_guild"
 	display_name = "Thieves' Guild"
 	localized_names = {}
-	description = "<group_thievesguildbuffed> and <last_thievesguildbuffed> give <icon_coin><color_FBF236><value_2><end> more. <color_E14A68>Adds<end> <icon_thief> every <color_E14A68><value_1><end> spins."
+	description = "<group_thievesguildbuffed> <last_thievesguildbuffed> and <icon_billionaire> give <icon_coin><color_FBF236><value_2><end> more. <color_E14A68>Adds<end> <icon_thief> every <color_E14A68><value_1><end> spins."
 	localized_descriptions = {}
 	value = ""
 	values = [12,2]
@@ -18,6 +18,17 @@ func _init():
 				{
 					"a": "groups",
 					"b": "thievesguildbuffed"
+				}
+			],
+			"value_to_change": "value_bonus",
+			"diff": values[1]
+		},
+		{
+			"effect_type": "symbols",
+			"comparisons": [
+				{
+					"a": "type",
+					"b": "billionaire"
 				}
 			],
 			"value_to_change": "value_bonus",
