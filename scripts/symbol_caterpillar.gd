@@ -73,7 +73,7 @@ func _init():
 			],
 			"value_to_change": "type",
 			"diff": "cocoon",
-			"sfx_override": "growhit",
+			"sfx_override": "wrap_STEAM_ID_76561198119199707_",
 			"anim": "rotate"
 		}
 	]
