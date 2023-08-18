@@ -6,10 +6,10 @@ func _init():
 	display_name = "Pot of Gold"
 	localized_names = {}
 	value = 2
-	description = "<color_E14A68>Removes<end> adjacent <icon_hover_coin> up to <color_E14A68><value_3><end> times. <color_E14A68>Adds<end> <color_E14A68>?<end> <icon_hover_coin> when <color_E14A68>destroyed<end> and gives <icon_coin><color_FBF236><value_4><end> for each <icon_hover_coin> <color_E14A68>added<end>. \"<color_E14A68>?<end>\" is equal to the number of <icon_hover_coin> <color_E14A68>removed<end> plus <color_E14A68><value_2><end>. Gives <color_E14A68><value_1>x<end> more <icon_coin> when directly below <icon_rainbow>."
+	description = "<color_E14A68>Removes<end> adjacent <icon_hover_coin> and store them inside this symbol. Starts with <color_E14A68><value_2><end> <icon_hover_coin> stored and can store up to <color_E14A68><value_1><end>. <color_E14A68>Adds<end> all stored <icon_hover_coin> when <color_E14A68>destroyed<end> and gives <icon_coin><color_FBF236><value_4><end> for each one <color_E14A68>added<end>. Gives <color_E14A68><value_1>x<end> more <icon_coin> when directly below <icon_rainbow>."
 	localized_descriptions = {}
 	values = [10,3,7,5]
-	value_text = {"color": "symbol_reminder_up_text", "value": {"starting_value": "saved_value"}}
+	value_text = {"color": "symbol_reminder_up_text", "value": {"starting_value": values[1], "var_math": [{"+": "saved_value"}]}}
 	rarity = "uncommon"
 	groups = ["richlikes","piratelikes","box","hooligandescription","hooliganextradestroy"]
 	sfx = ["coinjingle"]
