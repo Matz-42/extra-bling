@@ -5,10 +5,10 @@ func _init():
 	type = "caterpillar"
 	display_name = "Caterpillar"
 	localized_names = {}
-	value = 2
+	value = 1
 	description = "<text_color_keyword>Destroys<end> adjacent <icon_flower>. Gives <icon_coin><color_FBF236><value_1><end> for each <icon_flower> <text_color_keyword>destroyed<end>. <text_color_keyword>Transforms<end> into <icon_cocoon> after <text_color_keyword>destroying<end> <text_color_keyword><value_2><end> <icon_flower>."
 	localized_descriptions = {}
-	values = [8,3]
+	values = [24,3]
 	value_text = {"color": "symbol_reminder_down_text", "value": {"starting_value": values[1], "var_math": [{"-": "saved_value"}]}}
 	rarity = "uncommon"
 	groups = ["organism","animal"]
