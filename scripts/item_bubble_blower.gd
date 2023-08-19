@@ -5,7 +5,7 @@ func _init():
 	type = "bubble_blower"
 	display_name = "Bubble Blower"
 	localized_names = {}
-	description = "<groub_bubbleblowerbuffed> and <last_bubbleblowerbuffed> give <icon_coin><color_FBF236><value_2><end> more. Has a <color_E14A68><value_1>%<end> chance of <color_E14A68>adding<end> <icon_bubble> each spin."
+	description = "<groub_bubbleblowerbuffed> and <last_bubbleblowerbuffed> give <icon_coin><color_FBF236><value_2><end> more. Has a <text_color_keyword><value_1>%<end> chance of <text_color_keyword>adding<end> <icon_bubble> each spin."
 	localized_descriptions = {}
 	value = ""
 	values = [30,1]

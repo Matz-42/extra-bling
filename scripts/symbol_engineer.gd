@@ -6,7 +6,7 @@ func _init():
 	display_name = "Engineer"
 	localized_names = {}
 	value = 3
-	description = "Adjacent <group_limitedmachines> and <last_limitedmachines> give <color_E14A68><value_1>x<end> more <icon_coin> and gain <color_E14A68><value_2><end> extra <color_E14A68>uses<end>."
+	description = "Adjacent <group_limitedmachines> and <last_limitedmachines> give <text_color_keyword><value_1>x<end> more <icon_coin> and gain <text_color_keyword><value_2><end> extra <text_color_keyword>uses<end>."
 	localized_descriptions = {}
 	rarity = "rare"
 	values = [2,2]

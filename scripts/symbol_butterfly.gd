@@ -6,7 +6,7 @@ func _init():
 	display_name = "Butterfly"
 	localized_names = {}
 	value = 4
-	description = "Has a <color_E14A68><value_1>%<end> chance of giving <icon_essence_token><color_FF005D><value_2><end>."
+	description = "Has a <text_color_keyword><value_1>%<end> chance of giving <icon_essence_token><text_color_essence><value_2><end>."
 	localized_descriptions = {}
 	values = [8,1]
 	rarity = "very_rare"

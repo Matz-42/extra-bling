@@ -6,7 +6,7 @@ func _init():
 	display_name = "Rainbow"
 	localized_names = {}
 	value = 3
-	description = "Adjacent <icon_bubble> and <icon_rain> act like <icon_wildcard> and give <color_E14A68><value_1>x<end> more <icon_coin>. Affects non-adjacent symbols as well if you have <icon_clear_sky>."
+	description = "Adjacent <icon_bubble> and <icon_rain> act like <icon_wildcard> and give <text_color_keyword><value_1>x<end> more <icon_coin>. Affects non-adjacent symbols as well if you have <icon_clear_sky>."
 	localized_descriptions = {}
 	values = [2]
 	rarity = "rare"

@@ -5,7 +5,7 @@ func _init():
 	type = "old_photograph"
 	display_name = "Old Photograph"
 	localized_names = {}
-	description = "Every <color_E14A68><value_1><end> spins, <color_E14A68>adds 1<end> symbol that was <color_E14A68>destroyed<end> this game."
+	description = "Every <text_color_keyword><value_1><end> spins, <text_color_keyword>adds 1<end> symbol that was <text_color_keyword>destroyed<end> this game."
 	localized_descriptions = {}
 	value = ""
 	values = [2]

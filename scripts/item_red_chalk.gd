@@ -5,7 +5,7 @@ func _init():
 	type = "red_chalk"
 	display_name = "Red Chalk"
 	localized_names = {}
-	description = "You may <color_E14A68>destroy<end> this item and <color_E14A68>add <value_1><end> <group_hex> or <last_hex> at random."
+	description = "You may <text_color_keyword>destroy<end> this item and <text_color_keyword>add <value_1><end> <group_hex> or <last_hex> at random."
 	localized_descriptions = {}
 	value = ""
 	values = [3]

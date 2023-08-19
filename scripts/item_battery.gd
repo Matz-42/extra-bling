@@ -5,7 +5,7 @@ func _init():
 	type = "battery"
 	display_name = "Battery"
 	localized_names = {}
-	description = "<group_limitedmachines> and <last_limitedmachines> gain <color_E14A68><value_1><end> extra <color_E14A68>use<end> each spin."
+	description = "<group_limitedmachines> and <last_limitedmachines> gain <text_color_keyword><value_1><end> extra <text_color_keyword>use<end> each spin."
 	localized_descriptions = {}
 	value = ""
 	values = [1]

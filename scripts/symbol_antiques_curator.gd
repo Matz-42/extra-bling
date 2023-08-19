@@ -6,7 +6,7 @@ func _init():
 	display_name = "Antiques Curator"
 	localized_names = {}
 	value = 2
-	description = "Adjacent <group_antiquescuratorlikes> <last_antiquescuratorlikes> and <icon_highlander> give <color_E14A68><value_1>x<end> more <icon_coin>."
+	description = "Adjacent <group_antiquescuratorlikes> <last_antiquescuratorlikes> and <icon_highlander> give <text_color_keyword><value_1>x<end> more <icon_coin>."
 	localized_descriptions = {}
 	values = [2]
 	rarity = "rare"

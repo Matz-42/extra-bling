@@ -6,7 +6,7 @@ func _init():
 	display_name = "Student"
 	localized_names = {}
 	value = 1
-	description = "Transforms into <icon_robin_hood> <icon_archaeologist> <icon_beastmaster> <icon_card_shark> <icon_chef> <icon_dame> <icon_diver> <icon_farmer> <icon_mrs_fruit> <icon_witch> <icon_antiques_curator> <icon_bartender> <icon_comedian> <icon_joker> or <icon_engineer> after giving <icon_coin> <color_E14A68><value_1> times<end>."
+	description = "Transforms into <icon_robin_hood> <icon_archaeologist> <icon_beastmaster> <icon_card_shark> <icon_chef> <icon_dame> <icon_diver> <icon_farmer> <icon_mrs_fruit> <icon_witch> <icon_antiques_curator> <icon_bartender> <icon_comedian> <icon_joker> or <icon_engineer> after giving <icon_coin> <text_color_keyword><value_1> times<end>."
 	localized_descriptions = {}
 	values = [12,15]
 	value_text = {"color": "symbol_reminder_down_text", "value": {"starting_value": values[0], "var_math": [{"-": "times_coins_given"}]}}

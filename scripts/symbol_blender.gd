@@ -6,7 +6,7 @@ func _init():
 	display_name = "Blender"
 	localized_names = {}
 	value = 1
-	description = "<color_E14A68>Destroys<end> adjacent <icon_banana> <group_blendermixed> <last_blendermixed> and <icon_watermelon>. Gives <icon_coin> equal to <color_E14A68><value_2>x<end> the value of symbols <color_E14A68>destroyed<end> this way. <color_E14A68>Destroys<end> itself after <color_E14A68>destroying <value_1><end> symbols."
+	description = "<text_color_keyword>Destroys<end> adjacent <icon_banana> <group_blendermixed> <last_blendermixed> and <icon_watermelon>. Gives <icon_coin> equal to <text_color_keyword><value_2>x<end> the value of symbols <text_color_keyword>destroyed<end> this way. <text_color_keyword>Destroys<end> itself after <text_color_keyword>destroying <value_1><end> symbols."
 	localized_descriptions = {}
 	rarity = "uncommon"
 	values = [5,8]

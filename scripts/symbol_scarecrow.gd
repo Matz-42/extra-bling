@@ -6,7 +6,7 @@ func _init():
 	display_name = "Scarecrow"
 	localized_names = {}
 	value = 3
-	description = "Adjacent <icon_seed> <group_plant> and <last_plant> give <icon_coin><color_FBF236>1<end> more. <color_E14A68>Removes<end> adjacent <group_scarecrowhates> and <last_scarecrowhates>. Permanently increase the bonus given to adjacent symbols by <icon_coin><color_FBF236>1<end> for each symbol <color_E14A68>removed<end>."
+	description = "Adjacent <icon_seed> <group_plant> and <last_plant> give <icon_coin><color_FBF236>1<end> more. <text_color_keyword>Removes<end> adjacent <group_scarecrowhates> and <last_scarecrowhates>. Permanently increase the bonus given to adjacent symbols by <icon_coin><color_FBF236>1<end> for each symbol <text_color_keyword>removed<end>."
 	localized_descriptions = {}
 	rarity = "very_rare"
 	value_text = {"color": "symbol_reminder_up_text", "value": {"starting_value": "saved_value"}}

@@ -6,7 +6,7 @@ func _init():
 	display_name = "Pot of Gold"
 	localized_names = {}
 	value = 2
-	description = "<color_E14A68>Removes<end> adjacent <icon_hover_coin> and store them inside this symbol. Starts with <color_E14A68><value_2><end> <icon_hover_coin> stored and can store up to <color_E14A68><value_1><end>. <color_E14A68>Adds<end> all stored <icon_hover_coin> when <color_E14A68>destroyed<end> and gives <icon_coin><color_FBF236><value_4><end> for each one <color_E14A68>added<end>. Gives <color_E14A68><value_1>x<end> more <icon_coin> when directly below <icon_rainbow>."
+	description = "<text_color_keyword>Removes<end> adjacent <icon_hover_coin> and store them inside this symbol. Starts with <text_color_keyword><value_2><end> <icon_hover_coin> stored and can store up to <text_color_keyword><value_1><end>. <text_color_keyword>Adds<end> all stored <icon_hover_coin> when <text_color_keyword>destroyed<end> and gives <icon_coin><color_FBF236><value_4><end> for each one <text_color_keyword>added<end>. Gives <text_color_keyword><value_1>x<end> more <icon_coin> when directly below <icon_rainbow>."
 	localized_descriptions = {}
 	values = [10,3,7,5]
 	value_text = {"color": "symbol_reminder_up_text", "value": {"starting_value": values[1], "var_math": [{"+": "saved_value"}]}}

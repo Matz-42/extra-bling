@@ -5,7 +5,7 @@ func _init():
 	type = "golden_feather"
 	display_name = "Golden Feather"
 	localized_names = {}
-	description = "<group_goldenfeatherbuffed> and <last_goldenfeatherbuffed> give <icon_coin><color_FBF236><value_3><end> more. <group_goldenfeatherspawners> and <last_goldenfeatherspawners> are <color_E14A68><value_1>x<end> more likely to <color_E14A68>add<end> symbols. <icon_golden_egg> have a <color_E14A68><value_2>%<end> chance to transform into <icon_golden_goose>."
+	description = "<group_goldenfeatherbuffed> and <last_goldenfeatherbuffed> give <icon_coin><color_FBF236><value_3><end> more. <group_goldenfeatherspawners> and <last_goldenfeatherspawners> are <text_color_keyword><value_1>x<end> more likely to <text_color_keyword>add<end> symbols. <icon_golden_egg> have a <text_color_keyword><value_2>%<end> chance to transform into <icon_golden_goose>."
 	localized_descriptions = {}
 	value = ""
 	values = [5,5,2]

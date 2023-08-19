@@ -10,7 +10,7 @@ func _init():
 	inherit_description = false
 	rarity = "uncommon"
 	value = 2
-	description = "<color_E14A68>Destroys<end> adjacent <group_hooligandescription> and <last_hooligandescription>. Gives <icon_coin><color_FBF236><value_1><end> for <group_hooligandescription> and <last_hooligandescription> <color_E14A68>destroyed<end>."
+	description = "<text_color_keyword>Destroys<end> adjacent <group_hooligandescription> and <last_hooligandescription>. Gives <icon_coin><color_FBF236><value_1><end> for <group_hooligandescription> and <last_hooligandescription> <text_color_keyword>destroyed<end>."
 	values = [6]
 	effects = [
 		{

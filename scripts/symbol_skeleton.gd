@@ -6,7 +6,7 @@ func _init():
 	display_name = "Skeleton"
 	localized_names = {}
 	value = 0
-	description = "<color_E14A68>Destroys<end> itself after <color_E14A68><value_1><end> spins. <color_E14A68>Adds <value_2><end> <icon_bone> when <color_E14A68>destroyed<end>. <color_E14A68>Destroys<end> adjacent <icon_milk>. Permanently gives <icon_coin><color_FBF236><value_3><end> and lasts for <color_E14A68><value_1><end> extra spins for each <icon_milk> <color_E14A68>destroyed<end>."
+	description = "<text_color_keyword>Destroys<end> itself after <text_color_keyword><value_1><end> spins. <text_color_keyword>Adds <value_2><end> <icon_bone> when <text_color_keyword>destroyed<end>. <text_color_keyword>Destroys<end> adjacent <icon_milk>. Permanently gives <icon_coin><color_FBF236><value_3><end> and lasts for <text_color_keyword><value_1><end> extra spins for each <icon_milk> <text_color_keyword>destroyed<end>."
 	localized_descriptions = {}
 	values = [8,3,2]
 	value_text = {"color": "symbol_reminder_down_text", "value": {"starting_value": values[0], "var_math": [{"-": "saved_value"}]}}

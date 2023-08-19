@@ -6,7 +6,7 @@ func _init():
 	display_name = "Snake"
 	localized_names = {}
 	value = 1
-	description = "<color_E14A68>Destroys<end> adjacent <icon_egg> and <icon_golden_egg>. Gives <icon_coin><color_FBF236><value_1><end> for each <icon_egg> <color_E14A68>destroyed<end>. Permanently gives <icon_coin><color_FBF236><value_2><end> for each <icon_golden_egg> <color_E14A68>destroyed<end>."
+	description = "<text_color_keyword>Destroys<end> adjacent <icon_egg> and <icon_golden_egg>. Gives <icon_coin><color_FBF236><value_1><end> for each <icon_egg> <text_color_keyword>destroyed<end>. Permanently gives <icon_coin><color_FBF236><value_2><end> for each <icon_golden_egg> <text_color_keyword>destroyed<end>."
 	localized_descriptions = {}
 	values = [9,2]
 	rarity = "common"

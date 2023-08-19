@@ -6,7 +6,7 @@ func _init():
 	display_name = "Bone"
 	localized_names = {}
 	value = 1
-	description = "Adjacent <icon_dog> <icon_wolf> and <icon_eldritch_beast> give <color_E14A68><value_2>x<end> more <icon_coin>. <color_E14A68>Destroys<end> itself after making other symbols give additional <icon_coin> <color_E14A68><value_1> times<end>."
+	description = "Adjacent <icon_dog> <icon_wolf> and <icon_eldritch_beast> give <text_color_keyword><value_2>x<end> more <icon_coin>. <text_color_keyword>Destroys<end> itself after making other symbols give additional <icon_coin> <text_color_keyword><value_1> times<end>."
 	localized_descriptions = {}
 	rarity = "common"
 	values = [3,2]
