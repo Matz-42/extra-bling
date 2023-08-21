@@ -11,7 +11,7 @@ func _init():
 	values = [10,3,7,5]
 	value_text = {"color": "symbol_reminder_up_text", "value": {"starting_value": values[1], "var_math": [{"+": "saved_value"}]}}
 	rarity = "uncommon"
-	groups = ["richlikes","piratelikes","box","hooligandescription","hooliganextradestroy"]
+	groups = ["antiquescuratorlikes","piratelikes","box","hooligandescription","hooliganextradestroy"]
 	sfx = ["coinjingle"]
 	effects = [
 		{
