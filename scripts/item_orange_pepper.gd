@@ -5,10 +5,10 @@ func _init():
 	type = "orange_pepper"
 	display_name = "Orange Pepper"
 	localized_names = {}
-	description = "Gives <icon_coin><color_FBF236><value_1><end> if you have no symbols with a base value of more than <icon_coin><color_FBF236><value_2><end>."
+	description = "Gives <icon_coin><color_FBF236><value_1><end> if there are no symbols with a base value of <icon_coin><color_FBF236><value_2><end> or more."
 	localized_descriptions = {}
 	value = ""
-	values = [3,2]
+	values = [3,3]
 	rarity = "common"
 	groups = ["pepper"]
 	effects = [
@@ -18,7 +18,7 @@ func _init():
 				{
 					"a": "value",
 					"b": values[1],
-					"greater_than": true
+					"greater_than_eq": true
 				}
 			],
 			"target_self": true,
