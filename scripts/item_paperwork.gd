@@ -5,7 +5,7 @@ func _init():
 	type = "paperwork"
 	display_name = "Paperwork"
 	localized_names = {}
-	description = "Gives <icon_coin><color_FBF236><value_1><end> for each <icon_adoption_papers> <icon_tax_evasion> <icon_treasure_map> <icon_wanted_poster> <icon_zaroffs_contract> <icon_anthropology_degree> <icon_devils_deal> and <icon_old_photograph> you have atleast <text_color_keyword>1<end> of."
+	description = "Gives <icon_coin><color_FBF236><value_1><end> for each <icon_adoption_papers> <icon_tax_evasion> <icon_treasure_map> <icon_wanted_poster> <icon_zaroffs_contract> <icon_anthropology_degree> <icon_devils_deal> and <icon_old_photograph> you have at least <text_color_keyword>1<end> of."
 	localized_descriptions = {}
 	value = ""
 	values = [1]
