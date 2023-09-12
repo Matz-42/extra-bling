@@ -9,6 +9,7 @@ func _init():
 	localized_descriptions = {}
 	value = ""
 	values = [3,3]
+	value_text = {"color": "item_reminder_up_text", "value": {"starting_value": 0}}
 	rarity = "common"
 	groups = ["pepper"]
 	effects = [
