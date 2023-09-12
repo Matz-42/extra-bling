@@ -117,6 +117,56 @@ func _init():
 			"required_items": ["magpies_nest"],
 			"comparisons": [
 				{
+					"a": "type",
+					"b": "key"
+				}
+			],
+			"value_to_change": "destroyed",
+			"diff": true,
+			"anim": "bounce",
+			"anim_targets": "adjacent_symbol",
+			"sfx_override": "jump"
+		},
+		{
+			"effect_type": "adjacent_symbols",
+			"required_items": ["magpies_nest"],
+			"comparisons": [
+				{
+					"a": "type",
+					"b": "key"
+				},
+				{
+					"a": "destroyed",
+					"b": true
+				}
+			],
+			"target_self": true,
+			"value_to_change": "permanent_bonus",
+			"diff": 1
+		},
+		{
+			"effect_type": "adjacent_symbols",
+			"required_items": ["magpies_nest"],
+			"comparisons": [
+				{
+					"a": "type",
+					"b": "key"
+				},
+				{
+					"a": "removed",
+					"b": true
+				}
+			],
+			"target_self": true,
+			"value_to_change": "permanent_bonus",
+			"diff": 1
+		},
+		
+		{
+			"effect_type": "adjacent_symbols",
+			"required_items": ["magpies_nest"],
+			"comparisons": [
+				{
 					"a": "groups",
 					"b": "magpienesting"
 				}
