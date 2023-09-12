@@ -11,7 +11,7 @@ func _init():
 	rarity = "common"
 	values = [3,2]
 	value_text = {"color": "symbol_reminder_down_text", "value": {"starting_value": values[0], "var_math": [{"-": "saved_value"}]}}
-	groups = ["witchlikes"]
+	groups = ["witchlikes","darkhumor"]
 	effects = [
 		{
 			"effect_type": "adjacent_symbols",
