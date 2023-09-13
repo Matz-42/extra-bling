@@ -36,8 +36,7 @@ func _init():
 				},
 				{
 					"a": "destroyed",
-					"b": true,
-					"not_prev": true
+					"b": true
 				}
 			],
 			"target_self": true,
@@ -53,8 +52,7 @@ func _init():
 				},
 				{
 					"a": "destroyed",
-					"b": true,
-					"not_prev": true
+					"b": true
 				},
 				{
 					"a": "type",
