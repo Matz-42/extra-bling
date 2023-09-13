@@ -10,7 +10,7 @@ func _init():
 	localized_descriptions = {}
 	values = [9,2]
 	rarity = "common"
-	groups = ["organism","animal","scaler"]
+	groups = ["organism","animal"]
 	effects = [
 		{
 			"effect_type": "adjacent_symbols",
